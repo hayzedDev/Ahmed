@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #ccc;
+    color: #fff;
+    font-size: 1rem;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("acua.png");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.register-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    
+}
+
+button{
+    cursor: pointer;
+    width: 100%;
+    background-color: #fdf061;
+    border-radius: 3px;
+    padding: 15px 30px;
+    font-size: 1rem;
+}
+
+button:hover{
+    background-color: transparent;
+    color: #fdf061;
+    border: 2px solid #fdf061;
+}
+
+/* label{
+    margin-bottom: 20px;
+} */
+
+*:focus{outline: none;}
+
+.btn-log{
+    text-decoration: none;
+    padding: 15px 130px;
+    background-color: rgb(3,189,214);
+    color: #fff;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.btn-log:hover{
+    background: transparent;
+    color: rgb(3,189,214);
+    border: 2px solid rgb(3,189,214);
+}
+
+p{
+    margin-bottom: 25px;
+    margin-top: 20px;
+}

@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #ccc;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: "Montserrat",sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url("andrea2.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.text-box{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+span{
+    color: #fdf061;
+}
+
+.header-one{
+    font-size: 3rem;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+p{
+    font-size: 1.2rem;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+
+.btn-full{
+    text-decoration: none;
+    background-color: #fdf061;
+    padding: 20px 40px;
+    color: #000;
+    border-radius: 10px;
+    margin-right: 20px;
+    transition: all 0.2 ease-in;
+}
+
+.btn-full:hover{
+    background-color: transparent;
+    border: 2px solid rgb(253,240,97);
+    color: #fdf061;
+}
+
+.btn-log{
+    text-decoration: none;
+    padding: 20px 40px;
+    border: 2px solid rgb(253,240,97);
+    color: #fff;
+    border-radius: 10px;
+    color: #fdf061;
+    transition: all 0.2 ease-in;
+}
+
+.btn-log:hover{
+    background-color: #fdf061;
+    color: #000;
+}
+
+.login-form{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px #e3e3e3;
+}
+label{
+    color: #000;
+    font-weight: 400;
+}
+.paragraph-ways{
+    margin-top: 20px;
+    color: #000;
+}
+
+input{
+    width: 100%;
+    padding: 15px 30px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+*:focus{outline: none;}
+
+button{
+    cursor: pointer;
+    width: 100%;
+    background-color: #fdf061;
+    border-radius: 3px;
+    font-size: 1rem;
+    padding: 15px 30px;
+    margin-top: 20px;
+}
+
+button:hover{
+    background-color: transparent;
+    color: #fdf061;
+    border: 2px solid #fdf061;
+}
+
+.btn-register{
+        text-decoration: none;
+        padding: 15px 130px;
+        background-color: rgb(3,189,214);
+        color: #fff;
+        border-radius: 3px;
+        
+}   
+
+
+
+
+
+    
+    
+.btn-register:hover{
+        background: transparent;
+        color: rgb(3,189,214);
+        border: 2px solid rgb(3,189,214);
+    
+}
+
+
+.auth-box{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 1.2;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+h2{
+    font-size: 2rem;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.btn-out{
+    cursor: pointer;
+    
+    background-color: #fdf061;
+    border-radius: 3px;
+    font-size: 1rem;
+    padding: 15px 30px;
+}
+
+.btn-out:hover{
+    background-color: transparent;
+    color: #fdf061;
+    border: 2px solid #fdf061;
+}
+

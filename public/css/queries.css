@@ -1,0 +1,84 @@
+@media(max-width:480px){
+
+    h1{
+        font-size: 1.8rem;
+    }
+
+    .btn-full,
+    .btn-log{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        
+    }
+
+
+p{
+    font-size: 16px;
+    
+}
+
+
+
+.btn-full{
+    margin-bottom: 10px;
+}
+
+
+.btn-out{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+.auth-box{
+    width: 100%;
+    padding: 0 3%;
+}
+
+.login-form{
+    
+    padding: 0 3%;
+}
+
+}
+
+@media(max-width:768px){
+
+    h1{
+        font-size: 2.5rem;
+    }
+
+    p{
+        font-size: 1rem;
+        
+    }
+}
+
+
+@media(max-width:616px){
+
+    h1{
+        font-size: 2.2rem;
+    }
+    
+
+    .btn-full,
+    .btn-log{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+       
+        
+    }
+
+    .btn-full{
+        margin-bottom: 10px;
+    }
+}
+
+
